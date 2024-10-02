@@ -57,7 +57,7 @@ console.log(lewisIndex);
 
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
-const teachersString = ["nathan","ed","fabio","phil","carlo","lewis","luca"];
+const teachersString = teachers.join(`,`);
 console.log(teachersString);
 
 
